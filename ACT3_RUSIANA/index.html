@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<style>
+    body{
+        margin-top: 15rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card{
+        background-color: antiquewhite;
+        margin: auto;
+        width: 40%;
+        min-height: 400px;
+        padding: 15px 0;
+        border-radius: 15px;
+        border: 2px solid black;
+    }
+
+    #output{
+        width: 25%;
+        margin: auto;
+    }
+
+    #btn{
+        outline: none;
+        border: none;
+        padding: 12px;
+        background-color: blue;
+        color: white;
+        border-radius: 12px;
+        width: 20%;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    .btn2{
+        outline: none;
+        border: none;
+        padding: 12px;
+        background-color: blue;
+        color: white;
+        border-radius: 12px;
+        width: 20%;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    #btn:hover{
+        transform: scale(1.1);
+    }
+
+    .btn2:hover{
+        transform: scale(1.1);
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    table{
+        text-align: center;
+        align-items: center;
+        border-collapse: collapse;
+        margin: auto;
+        width: 600px;
+    }
+    tr, td, th{
+        border: 1px solid black;
+        width: 100px;
+        padding: 5px 0;
+    }
+
+    input{
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+
+    select{
+        width: 15%;
+        border-radius: 10px;
+        padding: 5px 0;
+    }
+
+    .btn3{
+        outline: none;
+        border: none;
+        padding: 8px 0;
+        width: 10%;
+        border-radius: 12px;
+        background-color: blue;
+        color: white;
+    }
+
+    .btn4{
+        outline: none;
+        border: none;
+        padding: 8px 0;
+        width: 10%;
+        border-radius: 12px;
+        background-color: lightblue;
+        color: white;
+    }
+</style>
+
+
+<body>
+   <div class="card">
+
+     <h1 id="title">Hello BSIT31B</h1>
+
+     <select name="course" id="course">
+        <option value="BSIT">BSIT</option>
+        <option value="BSCS">BSCS</option>
+        <option value="BSHM">BSHM</option>
+     </select><br><br><br>
+
+    <a href="">Click Me!</a><br><br>
+
+    <input type="text" id="name" placeholder="Enter a Text"><br><br><br>
+
+     <button id="btn">Click Me!</button>
+
+     <button class="btn2">Sample Button</button><br><br><br>
+     
+     <p id="output">Output:</p><br>
+
+    <table id="table">
+        <tr>
+            <th>Sample Data</th>
+            <th>Sample Data</th>
+            <th>Sample Data</th>
+            <th>Sample Data</th>
+            <th>Sample Data</th>
+        </tr>
+        <tr>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+        </tr>
+        <tr>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+        </tr>
+        <tr>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+        </tr>
+        <tr>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+        </tr>
+        <tr>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+            <td>Sample 1</td>
+        </tr>
+    </table><br>
+
+    <button class="btn3">Hide</button>
+    <button class="btn4">Show</button>
+
+   </div>
+
+<script src="node.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="header">
+        <Header>My Personal Website</Header>
+        <p>Welcome! My Name is Michael Rusiana</p>
+    </div>
+
+        <Nav>
+            <a href="Home.html" target="_self">Home</a>
+            <a href="Registration.html" target="_self">Registration</a>
+            <a href="Grades.html" target="_self">Grades</a>
+            <a href="Profile.html" target="_self">Profile</a>
+        </Nav>
+
+        <Section class="form">
+            <form class="form1">
+                <!-- Text Input -->
+                <h1>Employee Registration Form</h1><br>
+                First Name: <br>
+                <input type="text" name="firstname"/><br><br>
+                Middle Name: <br>
+                <input type="text" name="mname"/><br><br>
+                Last Name: <br>
+                <input type="text" name="firstname"/><br><br>
+                Email: <br>
+                <input type="text" name="Email"/><br><br>
+                Password: <br>
+                <input type="password" name="password" /><br><br>
+
+                <!-- Radio Button-->
+                <input type="radio" name="gender" value="genders">Male &nbsp;
+                <input type="radio" name="gender" value="genders">Female<br>
+
+                <!-- Check Box-->
+                <input type="checkbox" name="marriedstatus" value="marriedstats">Single &nbsp;
+                <input type="checkbox" name="marriedstatus" value="marriedstats">Married<br><br>
+                
+                <!-- Drop Down-->
+                <select name="dropdown">
+                    <option value="" selected disabled>Select the Job you want to Apply
+                    <option value="Software Developer">Software Developer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Techinician">Techinician</option>
+                </select><br><br>
+
+                <input type="file" name="fileupload" accept="image/*" />
+
+                <input type="hidden" name="pagename" value="10" /><br><br>
+                <input type="submit" name="submit" value="Submit" class="submit"/> &nbsp
+                <input type="reset" name="reset"  value="Reset" class="reset"/>
+            </form>
+        </Section>
+
+    <Footer class="footer">
+        <h1>Copyright Website 2026</h1>
+    </Footer>    
+</body>
+</html>

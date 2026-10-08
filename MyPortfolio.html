@@ -1,0 +1,198 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Rusiana | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/45fb778009.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" hidden />
+    <label for="menu-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+    <label for="menu-toggle" class="overlay"></label>
+
+    <!-- Side Navigation -->
+    <header id="sidebar">
+      <img src="mypic.png" alt="My Picture" />
+      <h1>Michael Rusiana</h1>
+      <p class="role">Aspiring Developer</p>
+      <div class="email-txt">
+        <i class="fa-regular fa-envelope"></i>
+        <p>michaeljosephrusiana@gmail.com</p>
+      </div>
+      <div class="header-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <nav class="links">
+        <a href="#Home"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#Activities"><i class="fa-solid fa-layer-group"></i> Activities</a>
+        <a href="#Experience"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#Contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+      <p class="sidebar-footer">© 2026 Michael Rusiana</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home -->
+      <section id="Home" class="hero">
+        <span class="hero-divider"></span>
+        <p class="welcome">Welcome to my portfolio</p>
+        <h2>Hi, I'm <span>Michael Rusiana</span></h2>
+        <h3 class="hero-role">BS Information Technology Student</h3>
+        <p class="hero-desc">
+          I'm studying BS Information Technology at PDM Marilao, Bulacan. I enjoy
+          building clean and simple websites — this portfolio collects my class
+          activities, projects, and experience.
+        </p>
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-school"></i> PDM Marilao, Bulacan</span>
+          <span><i class="fa-solid fa-code"></i> Web Development</span>
+          <span><i class="fa-solid fa-book-open"></i> Open to class projects</span>
+        </div>
+        <div class="hero-btns">
+          <a href="#Activities" class="btn">View Activities</a>
+          <a href="#Contact" class="btn-outline">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- Activities -->
+      <section id="Activities">
+        <h2 class="section-title fade">My Activities</h2>
+        <p class="section-sub fade">Replace these placeholders with your real activities later.</p>
+        <div class="activities-grid">
+          <article class="activity-card fade">
+            <div class="card-img">
+              <img src="Rusiana_Act4/screenshot.jpg" alt="My personal website project" />
+            </div>
+            <div class="card-body">
+              <h3>Personal Website</h3>
+              <p>
+                A multi-page personal website built with semantic HTML and CSS —
+                includes Home, Registration, Grades, and Profile pages.
+              </p>
+              <a href="Rusiana_Act4/Home.html" target="_blank" class="card-btn">View Website →</a>
+            </div>
+          </article>
+
+          <!-- Activity 2: Landing Page -->
+          <article class="activity-card fade">
+            <div class="card-img">
+              <img src="LandingPage/HTML/ss.jpg" alt="Landing page project" />
+            </div>
+            <div class="card-body">
+              <h3>Landing Page</h3>
+              <p>
+                A dark-themed landing page for an AI product, with a sticky nav bar,
+                hero section, and card layout.
+              </p>
+              <a href="LandingPage/HTML/Home.html" target="_blank" class="card-btn">View Website →</a>
+            </div>
+          </article>
+
+          <!-- Activity 3: Introduction of DOM -->
+          <article class="activity-card fade">
+            <div class="card-img">
+              <img src="Rusiana_Finals_Activity1/sss.jpg" alt="DOM manipulation practice page" />
+            </div>
+            <div class="card-body">
+              <h3>Introduction of DOM</h3>
+              <p>
+                A practice page demonstrating DOM manipulation with JavaScript —
+                dynamic text updates, event listeners, and form input handling.
+              </p>
+              <a href="Rusiana_Finals_Activity1/practice.html" target="_blank" class="card-btn">View Website →</a>
+            </div>
+          </article>
+
+          <!-- Activity 4: Introduction of Promise -->
+          <article class="activity-card fade">
+            <div class="card-img">
+              <img src="FINALS_ACT2/ps.jpg" alt="Promise practice page" />
+            </div>
+            <div class="card-body">
+              <h3>Introduction of Promise</h3>
+              <p>
+                A demo of asynchronous JavaScript using Promises — chained .then()
+                sequences and Promise.all() to load multiple items at once.
+              </p>
+              <a href="FINALS_ACT2/index.html" target="_blank" class="card-btn">View Website →</a>
+            </div>
+          </article>
+
+          <!-- Activity 5: Introduction to jQuery -->
+          <article class="activity-card fade">
+            <div class="card-img">
+              <img src="ACT3_RUSIANA/j.jpg" alt="jQuery event handling practice page" />
+            </div>
+            <div class="card-body">
+              <h3>Introduction to jQuery</h3>
+              <p>
+                A practice page built with jQuery — handling click, double-click,
+                hover, and focus events, plus showing and hiding elements with
+                selectors.
+              </p>
+              <a href="ACT3_RUSIANA/index.html" target="_blank" class="card-btn">View Website →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="Experience">
+        <h2 class="section-title fade">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item fade">
+            <small>2025</small>
+            <h3>Data Encoder — NBI</h3>
+            <p>
+              National Bureau of Investigation, Marilao Municipal Hall — encoding
+              and managing records at Sandico Street, Poblacion 1 (beside the PNP
+              Station), Marilao, Bulacan.
+            </p>
+          </div>
+          <div class="timeline-item fade">
+            <small>2025 - Present</small>
+            <h3>Student Developer</h3>
+            <p>Learning HTML, CSS, and building simple portfolio projects.</p>
+          </div>
+          <div class="timeline-item fade">
+            <small>2024 - 2025</small>
+            <h3>Beginner Projects</h3>
+            <p>Practiced layouts, cards, and navigation for class activities.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="Contact">
+        <h2 class="section-title fade">Contact</h2>
+        <div class="contact-card fade">
+          <p><i class="fa-regular fa-envelope"></i> michaeljosephrusiana@gmail.com</p>
+          <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn" id="send-btn">Send Message</button>
+            <p id="form-status"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2026 Michael Rusiana. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="node.js"></script>
+  </body>
+</html>

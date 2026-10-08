@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(240, 236, 236);
+}
+
+.card{
+    margin-top: 200px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    min-height: 318px;
+    box-shadow: rgb(19, 18, 18);
+    border-radius: 15px;
+    margin-left: 35%;
+    background: white;
+}
+
+.cards{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 19px;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 30px;
+    padding: 8px 0;
+}
+
+select{
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 30px;
+    padding: 8px 0;
+}
+
+
+.text{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.click{
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 30px;
+    padding: 8px 0;
+    color: white;
+    background: blue;
+}
+
+.dbclick{
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 30px;
+    padding: 8px 0;
+    color: white;
+    background: blue;
+}
+
+.press{
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 30px;
+    padding: 8px 0;
+    color: white;
+    background: blue;
+}
+
+h4{
+    margin-top: 20px;
+    color: blue;
+}
